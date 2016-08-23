@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<MeasureCage>
+  <XMLVersion>4</XMLVersion>
+  <_Name>Testing Phase analysis</_Name>
+  <_Count>4</_Count>
+  <_EnvBase>Chamber1</_EnvBase>
+  <_SchBase_name>Rat PD TempContig Generalization</_SchBase_name>
+  <_SchBase_version>1.0</_SchBase_version>
+  <_SchBase_path>C:\Users\User\Documents\Lafayette Instrument\ABET II\ABET Schedule Folder\Els - Temporal contiguity\Els - Swap protocols\Rat PD TempContig Generalization.#1_0#.abetSch</_SchBase_path>
+  <MeasurePath>
+    <XMLVersion>4</XMLVersion>
+    <_Name>DetectResponse</_Name>
+    <_Type>Evaluation</_Type>
+    <_IgnoreZero>false</_IgnoreZero>
+    <_AllowEqual>true</_AllowEqual>
+    <_NodeCount>6</_NodeCount>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Condition</_Name>
+      <_Type>Normal</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>5</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>5</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Operator</_Type>
+            <_OP>8</_OP>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Expression</_Type>
+              <_Name>_Current_Group</_Name>
+              <_Special>None</_Special>
+              <_SubItem>FALSE</_SubItem>
+            </MeasureLogicNode>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>ConstantVar</_Type>
+              <_Value>7</_Value>
+            </MeasureLogicNode>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Expression</_Type>
+            <_Name>_Image_Touched</_Name>
+            <_Special>None</_Special>
+            <_SubItem>FALSE</_SubItem>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>12</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Expression</_Type>
+            <_Name>_New_Group</_Name>
+            <_Special>None</_Special>
+            <_SubItem>FALSE</_SubItem>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>ConstantVar</_Type>
+            <_Value>22</_Value>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Trial No</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Trial_Counter</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Pair Index</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>current_pair_index</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Touch Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Grid_Touch_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Correct Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>Correct_Grid_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Response</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Local</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>8</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Correct Position</_Value>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Touch Position</_Value>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+  </MeasurePath>
+  <MeasurePath>
+    <XMLVersion>4</XMLVersion>
+    <_Name>Reference Condition</_Name>
+    <_Type>Evaluation</_Type>
+    <_IgnoreZero>false</_IgnoreZero>
+    <_AllowEqual>true</_AllowEqual>
+    <_NodeCount>6</_NodeCount>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Condition Reference</_Name>
+      <_Type>Normal</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>5</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>5</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Operator</_Type>
+            <_OP>5</_OP>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Operator</_Type>
+              <_OP>8</_OP>
+              <MeasureLogicNode>
+                <XMLVersion>6</XMLVersion>
+                <_Type>Expression</_Type>
+                <_Name>_Current_Group</_Name>
+                <_Special>None</_Special>
+                <_SubItem>FALSE</_SubItem>
+              </MeasureLogicNode>
+              <MeasureLogicNode>
+                <XMLVersion>6</XMLVersion>
+                <_Type>ConstantVar</_Type>
+                <_Value>7</_Value>
+              </MeasureLogicNode>
+            </MeasureLogicNode>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Expression</_Type>
+              <_Name>_Image_Touched</_Name>
+              <_Special>None</_Special>
+              <_SubItem>FALSE</_SubItem>
+            </MeasureLogicNode>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Operator</_Type>
+            <_OP>12</_OP>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Expression</_Type>
+              <_Name>_New_Group</_Name>
+              <_Special>None</_Special>
+              <_SubItem>FALSE</_SubItem>
+            </MeasureLogicNode>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>ConstantVar</_Type>
+              <_Value>22</_Value>
+            </MeasureLogicNode>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>8</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Expression</_Type>
+            <_Name>current_pair_index</_Name>
+            <_Special>None</_Special>
+            <_SubItem>FALSE</_SubItem>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>ConstantVar</_Type>
+            <_Value>1</_Value>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Trial No</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Trial_Counter</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Pair Index</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>current_pair_index</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Touch Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Grid_Touch_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Correct Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>Correct_Grid_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Correct Response</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Local</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>8</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Correct Position</_Value>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Touch Position</_Value>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+  </MeasurePath>
+  <MeasurePath>
+    <XMLVersion>4</XMLVersion>
+    <_Name>nonSwap Condition</_Name>
+    <_Type>Evaluation</_Type>
+    <_IgnoreZero>false</_IgnoreZero>
+    <_AllowEqual>true</_AllowEqual>
+    <_NodeCount>6</_NodeCount>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>nonSwap Condition </_Name>
+      <_Type>Normal</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>5</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>5</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Operator</_Type>
+            <_OP>5</_OP>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Operator</_Type>
+              <_OP>8</_OP>
+              <MeasureLogicNode>
+                <XMLVersion>6</XMLVersion>
+                <_Type>Expression</_Type>
+                <_Name>_Current_Group</_Name>
+                <_Special>None</_Special>
+                <_SubItem>FALSE</_SubItem>
+              </MeasureLogicNode>
+              <MeasureLogicNode>
+                <XMLVersion>6</XMLVersion>
+                <_Type>ConstantVar</_Type>
+                <_Value>7</_Value>
+              </MeasureLogicNode>
+            </MeasureLogicNode>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Expression</_Type>
+              <_Name>_Image_Touched</_Name>
+              <_Special>None</_Special>
+              <_SubItem>FALSE</_SubItem>
+            </MeasureLogicNode>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Operator</_Type>
+            <_OP>12</_OP>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Expression</_Type>
+              <_Name>_New_Group</_Name>
+              <_Special>None</_Special>
+              <_SubItem>FALSE</_SubItem>
+            </MeasureLogicNode>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>ConstantVar</_Type>
+              <_Value>22</_Value>
+            </MeasureLogicNode>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>8</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Expression</_Type>
+            <_Name>current_pair_index</_Name>
+            <_Special>None</_Special>
+            <_SubItem>FALSE</_SubItem>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>ConstantVar</_Type>
+            <_Value>2</_Value>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Trial No</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Trial_Counter</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Pair Index</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>current_pair_index</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Touch Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Grid_Touch_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Correct Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>Correct_Grid_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Response</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Local</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>8</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Correct Position</_Value>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Touch Position</_Value>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+  </MeasurePath>
+  <MeasurePath>
+    <XMLVersion>4</XMLVersion>
+    <_Name>Swap Condition</_Name>
+    <_Type>Evaluation</_Type>
+    <_IgnoreZero>false</_IgnoreZero>
+    <_AllowEqual>true</_AllowEqual>
+    <_NodeCount>6</_NodeCount>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Condition Swap pair</_Name>
+      <_Type>Normal</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>5</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>5</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Operator</_Type>
+            <_OP>5</_OP>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Operator</_Type>
+              <_OP>8</_OP>
+              <MeasureLogicNode>
+                <XMLVersion>6</XMLVersion>
+                <_Type>Expression</_Type>
+                <_Name>_Current_Group</_Name>
+                <_Special>None</_Special>
+                <_SubItem>FALSE</_SubItem>
+              </MeasureLogicNode>
+              <MeasureLogicNode>
+                <XMLVersion>6</XMLVersion>
+                <_Type>ConstantVar</_Type>
+                <_Value>7</_Value>
+              </MeasureLogicNode>
+            </MeasureLogicNode>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Expression</_Type>
+              <_Name>_Image_Touched</_Name>
+              <_Special>None</_Special>
+              <_SubItem>FALSE</_SubItem>
+            </MeasureLogicNode>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Operator</_Type>
+            <_OP>12</_OP>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>Expression</_Type>
+              <_Name>_New_Group</_Name>
+              <_Special>None</_Special>
+              <_SubItem>FALSE</_SubItem>
+            </MeasureLogicNode>
+            <MeasureLogicNode>
+              <XMLVersion>6</XMLVersion>
+              <_Type>ConstantVar</_Type>
+              <_Value>22</_Value>
+            </MeasureLogicNode>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Operator</_Type>
+          <_OP>8</_OP>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>Expression</_Type>
+            <_Name>current_pair_index</_Name>
+            <_Special>None</_Special>
+            <_SubItem>FALSE</_SubItem>
+          </MeasureLogicNode>
+          <MeasureLogicNode>
+            <XMLVersion>6</XMLVersion>
+            <_Type>ConstantVar</_Type>
+            <_Value>3</_Value>
+          </MeasureLogicNode>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Pair Index</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>current_pair_index</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Trial No</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Trial_Counter</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Touch Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>_Grid_Touch_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Correct Position</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Normal</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Expression</_Type>
+        <_Name>Correct_Grid_Position</_Name>
+        <_Special>None</_Special>
+        <_SubItem>FALSE</_SubItem>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+    <MeasurePoint>
+      <XMLVersion>4</XMLVersion>
+      <_Name>Response</_Name>
+      <_Type>Evaluation</_Type>
+      <_Design_Sch />
+      <_Design_Env />
+      <_Eval_Mode>Local</_Eval_Mode>
+      <MeasureLogicNode>
+        <XMLVersion>6</XMLVersion>
+        <_Type>Operator</_Type>
+        <_OP>8</_OP>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Correct Position</_Value>
+        </MeasureLogicNode>
+        <MeasureLogicNode>
+          <XMLVersion>6</XMLVersion>
+          <_Type>Reference</_Type>
+          <_Value>Touch Position</_Value>
+        </MeasureLogicNode>
+      </MeasureLogicNode>
+      <_DisplayThisColumn>true</_DisplayThisColumn>
+    </MeasurePoint>
+  </MeasurePath>
+</MeasureCage>
